@@ -7,10 +7,10 @@ Library           Collections
 
 *** Variables ***
 ${Campo_email}           //*[@id="identifierId"]
-${email}                 leticia.freitas10@aluno.ifce.edu.br
+${email}                 ***
 ${avançar}               //*[@id="identifierNext"]/div/button
 ${campo_senha}           //*[@name="Passwd"]
-${senha}                 @IFCE21112005
+${senha}                 ***
 ${avançar2}              //*[@id="passwordNext"]/div/button
 
 ${campo_nome}            //*[@jsname="LgbsSe"]
@@ -26,7 +26,7 @@ ${enviar}                //*[@class="uArJ5e UQuaGc Y5sE8d VkkpIf QvWxOd"]
 
 *** Keywords ***
 Acessar Formulário
-    Open Browser        https://forms.gle/HcQALhH8VNh7gtxG6    chrome
+    Open Browser        ***    chrome
     Maximize Browser Window
 
 Login google
